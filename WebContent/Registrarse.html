@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hospital la Baga</title>
+    
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+
+</head>
+    <body class="cuerpo">
+
+
+
+        <div class="Menu">
+            <ul class="Moviemiento"><div class="Imagen"></div>
+                
+                    <a href="Index.html">INICIO </a>
+                             
+                    <a href="NuestrosDoctores.html">NUESTROS DOCTORES</a>               
+                
+                    <a href="QuieneSomos.html">QUIENES SOMOS</a>               
+               
+                    <a href="Cita.html">CITAS</a>                
+               
+                    <a href="HistorialC.html">HISTORIAL CLINICO</a>               
+                
+                    <a href="IniciarSesion.html">INICAR SESION</a>
+                    
+                    <input type="button" value="Buscar"> <input type="text">
+             		
+            </ul>
+        </div>
+      
+      <div class="header">
+           <div class="Registro">
+                 
+                <form class="form" name="formulario" method="post" action="RegistrarPaciente">
+                    <h2 class="titulo">Registrate</h2>
+                   <div class="contenedor-inputs">
+                   
+                   <div class="container">
+                    <label>NSS:</label><input type="text" name="folio" class="input input2">
+                    </div>
+                    
+                    
+                    <div class="container">
+                    <br>
+                    <label>Nombre:</label><input type="text" name="nombre" class="input input2">
+                    <br>
+                    <label>Apellido Paterno:</label><input type="text" name="appat" class="input input2">
+                    <label>Apellido Materno:</label><input type="text" name="apmat" class="input input2">
+                    <br>
+                    <label>Telefono:</label><input type="tel" name="tele" class="input input2">
+                    <label>Fecha de Nacimiento:</label><input type="date" name="fech" class="input input2">
+                    
+                    <label>Genero:</label>
+                    <select name="gene" class="input input2">
+                    <option></option>
+                    <option>Femenino</option>
+                    <option>Masculino</option>
+                    <option>Otros</option>
+                    </select>
+                    
+                    <label>Direccion:</label><input type="text" name="dic" placeholder="Solo Calle" class="input input2">
+                    <label>CURP:</label><input type="text" name="curp" class="input input3">
+                    </div>
+                    
+                    
+                    
+                    <div class="container">
+                    <br>
+                    <label>Alergia:</label>
+                    <select name="alerg" class="input input3">
+                    <option></option>
+                    <option>Animales</option>
+                    <option>Polvo</option>
+                    <option>Sol</option>
+                    <option>Trabajo</option>
+                    </select>
+                    </div>
+                    
+                    <div class="container">
+                    <br>
+                    <label>Tipo de Sangre:</label>
+                    <select name="tsangre" class="input input3">
+                    <option></option>
+                    <option>O positivo</option>
+                    <option>O negativo</option>
+                    </select>
+                    </div>
+                   
+                    <div class="container">
+                    <br>
+                    <label>Estado Civil:</label>
+                    <select name="estadoc" class="input input3">
+                    <option></option>
+                    <option>Casado</option>
+                    <option>Soltero</option>
+                    <option>Divorciado</option>
+                    </select>
+                    </div>
+                    
+                    <div class="container">
+                    <br>
+                    <label>Ocupacion:</label>
+                    <select name="ocupa" class="input input3">
+                    <option></option>
+                    <option>Estudiante</option>
+                    <option>Trabajador</option>
+                    </select>
+                    </div>
+                    
+                    
+                    <div class="container">
+                    <br>
+                    <label>Fecha de Registro:</label><input type="date" name="fregis" class="input input1">
+                    <label>Folio alta:</label><input type="text" name="alta" class="input input1">
+                    </div>
+                   
+                   
+                   
+                    <div class="container">
+                    <br>
+                    <label>Correo:</label><input type="email" name="use" class="input input4">
+                    <label>Contrasena:</label><input type="password" name="pass" class="input input4">
+                    </div>
+                   
+                   <br>
+                    <input type="submit" value="Registrar Usuario" class="res">
+                  </div>
+                </form>
+               </div>
+              </div>
+         
+
+</body>
+</html>

@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+
+.cuerpo{
+	background:url(../Imagenes/header-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+ul {
+	text-align: right;
+}
+
+.Imagen{
+	float: left;
+	width: 50px;
+	height: 50px;
+	background:url(../Imagenes/Logo.png);
+	background-size: 50px;
+	border-radius: 50%;
+}
+
+/******************/
+/* INICIAR SESION */
+/******************/
+
+
+.login {
+	width: 320px;
+	height: 530px;
+	background: #adecef;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-60%, -40%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+
+ .login .logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.login h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.login input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	
+	
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+h1 {
+	color: #393939;
+	font: 700 3rem/3.5rem "Raleway", sans-serif;
+	text-align: center;
+}
+
+h2 {
+	
+	color: #393939;
+	font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+text-align: center;
+}
+
+h3 {
+	color: #393939;
+	font: 700 1.75rem/2rem "Raleway", sans-serif;
+}
+
+h4 {
+	color: #393939;
+	font: 700 1.375rem/1.875rem "Raleway", sans-serif;
+	text-align: center;
+}
+
+h5 {
+	color: #393939;
+	font: 700 1.125rem/1.625rem "Raleway", sans-serif;
+}
+
+h6 {
+	color: #393939;
+	font: 700 1rem/1.5rem "Raleway", sans-serif;
+}
+
+a {
+	color: #626262;
+	text-decoration: underline;
+}
+
+p{
+	font: 700 1rem/1.5rem "Raleway", sans-serif;
+	text-align: center;
+}
+
+
+/*******************/
+/*   REGISTRARSE   */
+/*******************/
+
+.Registro .form{
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
+    background: #adecef;
+    border-radius: 4px;
+    position: absolute;
+	transform: translate(50%, 20%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.Registro .titulo{
+    color: #000;
+    padding: -50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.contenedor-inputs{
+	padding: 3px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Registro .input{
+	min-height: 20px;
+    border-radius: 7px;
+    border: 1px solid darkgray;
+    padding-left:5px;
+}
+
+.Registro .input2{
+	width:35%;
+    max-width:150px;
+}
+
+.Registro .input1{
+   width: 25%;
+   max-width: 200px;
+}
+
+.Registro .input3{
+    width: 65%;
+    max-width: 350px;
+}
+
+.Registro .input4{
+   width: 100%;
+   max-width: 450px;
+}
+
+
+.Registro .res{
+	
+    
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 50%;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 515px;
+	left: calc(18% - -50px);
+}
+
+.Registro .res[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	
+	
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+
+
+
+.contenedor{
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+
+
+
+
