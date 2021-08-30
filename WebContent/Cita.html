@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cita</title>
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+<link rel="stylesheet" type="text/css" href="css/cita.css">
+        <nav class="navbar-custom" id="navbarsExampleDefault" align="Center">
+            <ul class="navbar-nav ml-auto">
+                <img class="logo" src="imagenes/Logo.png" height="30" width="30">
+                    <a href="Index.html">INICIO </a>
+                             
+                    <a href="NuestrosDoctores.html">NUESTROS DOCTORES</a>               
+                
+                    <a href="QuieneSomos.html">QUIENES SOMOS</a>               
+               
+                    <a href="Cita.html">CITAS</a>                
+               
+                    <a href="HistorialC.html">HISTORIAL CLINICO</a>               
+                
+                    <a href="IniciarSesion.html">INICAR SESION</a>
+             		
+                    <input type="button" value="Buscar"> <input type="text">
+            </ul>
+        </nav>
+    <div style="width: 30%; float:right">
+        <div class="c4">
+            <h1 class="datos">Datos de la Cita</h1>
+        </div>
+    </div>
+                        <div style="width: 70%; float:left">
+                        <form action="NCita" method="post">
+                            <div class="c1">
+                            <h1 class="cita">¡Agenda tu cita!</h1>
+                            
+                            <label class="label-control" for="NSS">Numero de Seguro Social</label>
+                            <input type="text" name="nss" size="34">
+                                <p></p>
+                                <label class="label-control" for="Dia">Fecha</label>
+                                <input type="text" name="Fecha" size="3">
+                                <label class="label-control" for="Hora">Hora</label>
+                                <input type="text" name="Hora" size="3">
+                            <p></p> 
+                            <input type="submit" value="Agendar Cita">
+                            </div>
+                        </form>
+
+                        <form action="/my-handling-form-page" method="post">        
+                            <div class="c2">
+                            <h1 class="consultar">Consultar Cita</h1>
+                            <label class="label-control" for="NSS">Numero de Servicio Social</label>
+                            <input type="text" name="NSS" size="34">
+                                <p></p> 
+                                <input type="submit" value="Consultar Cita">
+                            </div>
+                        </form>
+                        <form action="NCita" method="post">
+                            <div class="c3">
+                            <h1 class="citaE">¡Agenda una cita especial!</h1>
+                            <label class="label-control" for="NSS">Numero de Seguro Social</label>
+                            <input type="text" name="nss" size="34">
+                                <p></p>
+                                <label class="label-control" for="Dia">Fecha</label>
+                                <input type="text" name="Fecha" size="3">
+                                <label class="label-control" for="Hora">Hora</label>
+                                <input type="text" name="Hora" size="3">
+                            <p></p> 
+                            <input type="submit" value="Agendar Cita">
+                            </div>
+                        </form>
+                    </div>
+</body>
+</html>
