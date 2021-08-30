@@ -1,0 +1,166 @@
+@charset "ISO-8859-1";
+
+
+/*!
+ * Posicion de imagenes
+ */
+body{
+	background:url(../Imagenes/ex-header-background.jpg);
+	background-size: 1350px;
+	background-repeat: no-repeat;
+}
+/*!
+ * Seccion de las tipografias y colocacion
+ */
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../FuentesWeb/fa-brands-400.eot");
+  src: url("../FuentesWeb/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../FuentesWeb/fa-brands-400.woff2") format("woff2"), url("../FuentesWeb/fa-brands-400.woff") format("woff"), url("../FuentesWeb/fa-brands-400.ttf") format("truetype"), url("../FuentesWeb/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../FuentesWeb/fa-regular-400.eot");
+  src: url("../FuentesWeb/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../FuentesWeb/fa-regular-400.woff2") format("woff2"), url("../FuentesWeb/fa-regular-400.woff") format("woff"), url("../FuentesWeb/fa-regular-400.ttf") format("truetype"), url("../FuentesWeb/fa-regular-400.svg#fontawesome") format("svg"); }
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400; }
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../FuentesWeb/fa-solid-900.eot");
+  src: url("../FuentesWeb/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../FuentesWeb/fa-solid-900.woff") format("woff"), url("../FuentesWeb/fa-solid-900.ttf") format("truetype"), url("../FuentesWeb/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  
+h1 {
+	color: #393939;
+	font: 700 3rem/3.5rem "Raleway", sans-serif;
+	text-align: center;
+}
+
+h2 {
+	
+	color: #393939;
+	font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+	text-align: center;
+}
+
+h3 {
+	color: #393939;
+	font: 700 1.75rem/2rem "Raleway", sans-serif;
+}
+
+h4 {
+	color: #393939;
+	font: 700 1.375rem/1.875rem "Raleway", sans-serif;
+}
+
+h5 {
+	color: #393939;
+	font: 700 1.125rem/1.625rem "Raleway", sans-serif;
+}
+
+h6 {
+	color: #393939;
+	font: 700 1rem/1.5rem "Raleway", sans-serif;
+}
+
+a {
+	color: #626262;
+	text-decoration: underline;
+}
+
+p{
+	font: 700 1rem/1.5rem "Raleway", sans-serif;
+	text-align: center;
+}
+
+
+
+/*!
+ * Posicion de fuentes ul
+ */
+ 
+ul {
+	text-align: right;
+}
+
+/*Imagenes*/
+.Imagen{
+	float: left;
+	width: 50px;
+	height: 50px;
+	background:url(../Imagenes/LogoPrincipal.jpg);
+	background-size: 50px;
+	border-radius: 50%;
+}
+
+.User{
+	
+	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	background:url(../Imagenes/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png);
+	background-size: 100px;
+	border-radius: 100%;
+	
+}
+
+.NuestrosDoctores{
+	
+ border: 1px solid #E1E1E1;
+ border-radius: 5px;
+ background-color: #1AA4FF ;
+ width: 600px;
+ height: 210px;
+	
+}
+
+.BuscarMedico{
+	
+ border: 1px solid #E1E1E1;
+ border-radius: 5px;
+ background-color: #1AA4FF ;
+ width: 600px;
+ height: 210px;
+	
+}
+
+/*Botones buscar*/
+
+.BotonBuscar{
+ 
+ 	position: relative;
+	left: 250px;
+ 
+ }
+ 
+ 
+ .infoDocC{
+ border: 1px solid #E1E1E1;
+ border-radius: 5px;
+ background-color: #1AA4FF ;
+ width: 600px;
+ height: 210px;
+ float: right; 
+ 
+ }
+ 
+ .infoDocE{
+ 
+ border: 1px solid #E1E1E1;
+ border-radius: 5px;
+ background-color: #1AA4FF ;
+ width: 600px;
+ height: 210px;
+ float: right; 
+ 
+ }
